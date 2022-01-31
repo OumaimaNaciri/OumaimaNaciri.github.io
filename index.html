@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- =====BOX ICONS===== -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--===================== SWIPER CSS ================= -->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+
+    <title>Portfolio website complete</title>
+  </head>
+  <body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+      <nav class="nav bd-grid">
+        <div>
+          <a target="_blank" href="#" class="nav__logo">OUMAI</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a target="_blank" href="#home" class="nav__link active">Home</a>
+            </li>
+            <li class="nav__item">
+              <a target="_blank" href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a target="_blank" href="#skills" class="nav__link">Skills</a>
+            </li>
+            <li class="nav__item">
+              <a target="_blank" href="#portfolio" class="nav__link"
+                >Portfolio</a
+              >
+            </li>
+            <li class="nav__item">
+              <a target="_blank" href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="bx bx-menu"></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <!--===== HOME =====-->
+      <section class="home bd-grid" id="home">
+        <div class="home__data">
+          <h1 class="home__title">
+            Hi,<br />I'am <span class="home__title-color">Oumai</span><br />
+            Frontend Developer
+          </h1>
+        </div>
+
+        <div class="home__social">
+          <a
+            target="_blank"
+            href="https:www.linkedin.com/in/oumaima-naciri-921280222"
+            target="_blank"
+            class="home__social-icon"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+
+          <a
+            target="_blank"
+            href="https://github.com/OumaimaNaciri"
+            class="home__social-icon"
+            target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+        </div>
+
+        <div class="home__img">
+          <img
+            src="./assets/img/favpng_github-programmer-computer-programming-software-repository.png"
+            alt="oumaima animation image"
+          />
+        </div>
+      </section>
+
+      <!--===== ABOUT =====-->
+      <section class="about section" id="about">
+        <h2 class="section-title">About</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__img">
+            <img src="assets/img/about.jpg" alt="" />
+          </div>
+
+          <div>
+            <h2 class="about__subtitle">I'am Oumaima</h2>
+            <p class="about__text">
+              I'm a frontend developer, I enjoy using my skill to make space to
+              share stuff with others, when we share our valuable things with
+              the world,we make it a better place to live. I love my work and
+              I'm really passion about it.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--===== SKILLS =====-->
+      <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+          <div>
+            <h2 class="skills__subtitle">Profesional Skills</h2>
+            <p class="skills__text">
+              I specialize in responsive mobile-friendly websites and
+              experienced with landing pages, I build the client-side of the
+              website by writing a custom readable and better design code to
+              have the speed and performance needed to give the best user
+              experience.
+            </p>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-html5 skills__icon"></i>
+                <span class="skills__name">HTML5</span>
+              </div>
+              <div class="skills__bar skills__html"></div>
+              <div>
+                <span class="skills__percentage">95%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-css3 skills__icon"></i>
+                <span class="skills__name">CSS3</span>
+              </div>
+              <div class="skills__bar skills__css"></div>
+              <div>
+                <span class="skills__percentage">85%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxl-javascript skills__icon"></i>
+                <span class="skills__name">JAVASCRIPT</span>
+              </div>
+              <div class="skills__bar skills__js"></div>
+              <div>
+                <span class="skills__percentage">65%</span>
+              </div>
+            </div>
+            <div class="skills__data">
+              <div class="skills__names">
+                <i class="bx bxs-paint skills__icon"></i>
+                <span class="skills__name">UX/UI</span>
+              </div>
+              <div class="skills__bar skills__ux"></div>
+              <div>
+                <span class="skills__percentage">40%</span>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <img src="assets/img/skills.jpg" alt="" class="skills__img" />
+          </div>
+        </div>
+      </section>
+
+      <!--===== PORTFOLIO =====-->
+
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section-title">Portfolio</h2>
+
+        <div class="portfolio_container container swiper swiperPortfolio">
+          <div class="swiper-wrapper">
+            <!-- =============== PORTFOLIO 1 ============= -->
+            <div class="portfolio_content grid swiper-slide">
+              <img
+                src="assets/img/portfolio1.jpg"
+                alt=""
+                class="portfolio_img"
+              />
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">EasyBank Landing Page</h3>
+                <p class="portfolio_description">
+                  Responsive landing Page with HTML CSS and JavaScript, code
+                  from scratch. challenge from :
+                  <a
+                    target="_blank"
+                    href="https://www.frontendmentor.io/challenges"
+                  >
+                    Frontend Mentor</a
+                  >
+                </p>
+                <a
+                  target="_blank"
+                  href="https://easy-bank.w3spaces.com/"
+                  class="button button--flex button--small portfolio_button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- =============== PORTFOLIO 2 ============= -->
+            <div class="portfolio_content grid swiper-slide">
+              <img
+                src="./assets/img/portfolio2.jpg"
+                alt="Space Tourism Website"
+                class="portfolio_img"
+              />
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">Space Tourism Website</h3>
+                <p class="portfolio_description">
+                  Responsive modern Website with HTML CSS and JavaScript, with
+                  ui components and animated interactions. code from scratch.
+                  challenge from:
+                  <a
+                    target="_blank"
+                    href="https://www.frontendmentor.io/challenges"
+                  >
+                    Frontend Mentor</a
+                  >
+                </p>
+                <a
+                  target="_blank"
+                  href="https://space-tourism.w3spaces.com/"
+                  class="button button--flex button--small portfolio_button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!-- =============== PORTFOLIO 3 ============= -->
+            <div class="portfolio_content grid swiper-slide">
+              <img
+                src="assets/img/portfolio3.jpg"
+                alt=""
+                class="portfolio_img"
+              />
+              <div class="portfolio_data">
+                <h3 class="portfolio_title">Digital Marketing Landing Page</h3>
+                <p class="portfolio_description">
+                  Responsive landing Page with HTML CSS and JavaScript, code
+                  from scratch. design by :
+                  <a target="_blank" href="https://www.instagram.com/akki.2013/"
+                    >Akki</a
+                  >
+                </p>
+                <a
+                  target="_blank"
+                  href="https://digital-marketing.w3spaces.com/"
+                  class="button button--flex button--small portfolio_button"
+                >
+                  Demo
+                  <i class="uil uil-arrow-right button_icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- ========================= Add Arrows from swiper=============== -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </section>
+
+      <!--===== CONTACT =====-->
+      <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact__container bd-grid">
+          <form action="" class="contact__form">
+            <input type="text" placeholder="Name" class="contact__input" />
+            <input type="mail" placeholder="Email" class="contact__input" />
+            <textarea
+              name=""
+              id=""
+              cols="0"
+              rows="10"
+              class="contact__input"
+            ></textarea>
+            <input
+              type="button"
+              value="submit"
+              class="contact__button button"
+            />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+      <p class="footer__title">Oumai</p>
+      <div class="footer__social">
+        <a target="_blank" href="#" class="footer__icon"
+          ><i class="bx bxl-facebook"></i
+        ></a>
+        <a target="_blank" href="#" class="footer__icon"
+          ><i class="bx bxl-instagram"></i
+        ></a>
+        <a target="_blank" href="#" class="footer__icon"
+          ><i class="bx bxl-twitter"></i
+        ></a>
+      </div>
+      <p class="footer__copy">&#169; OumaimaNaciri. All rigths reserved</p>
+    </footer>
+
+    <!-- ==============================SWIPER JS================================ -->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
